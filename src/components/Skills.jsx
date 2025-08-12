@@ -17,18 +17,21 @@ export default function Skills() {
             <h2>Skills</h2>
             <div className="underline"></div>
           </Title>
-          <Row className="mt-3 align-items-center">
-            {skillData.map((skills) => {
-              return (
-                <Col xs={4} key={skills.id} className="my-md-5">
-                  <figure>
-                    {skills.skill}
-                    <figcaption>{skills.name}</figcaption>
-                  </figure>
-                </Col>
-              );
-            })}
-          </Row>
+          {skillData.map((category) => (
+            <div key={category.category}>
+              <h3>{category.category}</h3>
+              <Row className="mt-3 align-items-center">
+                {category.skills.map((skill) => (
+                  <Col xs={4} md={2} key={skill.id} className="my-md-5">
+                    <figure>
+                      {skill.skill}
+                      <figcaption>{skill.name}</figcaption>
+                    </figure>
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          ))}
           {resume && (
             <a href={resume}>
               <Button

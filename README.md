@@ -1,60 +1,23 @@
-# A React Portfolio Template for GitHub
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members)
+# Mary Creason
 
 A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
-
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
 
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
 ![Page Speed](/README_images/speed.png)
 
-## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
-
-![Project Preview](/README_images/preview.png)
-
-### Getting Started
-
-1. [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. [Clone your repostiory](https://developers.google.com/speed/pagespeed/insights/)
-3. Make sure [Node](https://nodejs.org/en/) is installed
-4. Open your project and install the dependencies
+1. Open your project and install the dependencies
 
    ```bash
    npm install
    ```
 
-5. Navigate to the src directory and open data.js
-6. Add your GitHub username ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L14) lines 14-18)
-
-   ```javascript
-   /* START HERE
-   ************************************************************** 
-     Add your GitHub username (string - "YourUsername") below.
-   */
-   export const githubUsername = "Your GitHub username here";
-   ```
-
-7. Start the development server to view the results
+2. Start the development server to view the results
 
    ```bash
    npm start
    ```
 
-### Updating the Projects section
-
-![Projects Preview](/README_images/projects.png)
-
-1. Follow the instructions to update the filteredProjects array ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L85) lines 85-89)
-
-   ```javascript
-   /* Projects
-   ************************************************************** 
-     List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
-   */
-   export const filteredProjects = ["example-1", "example-2", "example-3"];
-   ```
 
 2. Import the projects images you want to use ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L4) lines 4-5) or the default image will be applied
 
