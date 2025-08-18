@@ -31,6 +31,13 @@ export default function AboutMe() {
               <div className="underline"></div>
             </Title>
           </Container>
+          <Row>
+            <Container className="d-flex">
+            <Title>
+              <h2>Mary Creason</h2>
+            </Title>
+          </Container>
+          </Row>
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
               <Container>
